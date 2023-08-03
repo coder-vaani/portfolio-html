@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .row {
@@ -25,19 +26,17 @@ a {
 }
 
 /* home */
-.home {
+.header {
     background-image: url("./images/background.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
-    position: relative;
 }
 
 /* home */
 
 /* navbar */
-header {
-    background-color: black;
+.navbar {
     color: white;
     width: 100%;
     padding: 0.5rem 1.5rem;
@@ -68,14 +67,12 @@ header {
 /* navbar */
 
 /* home links */
-.homelinks {
+.headerlinks {
     position: absolute;
     margin: auto;
     left: 45%;
     bottom: 10%;
     text-align: center;
-    border: 2px solid red;
-    background-color: black;
 }
 
 .links img {
