@@ -387,9 +387,13 @@ a {
 /* media queries */
 @media only screen and (max-width: 1200px) {
 
-    .container,
-    .mini-container {
+    .container {
         padding: 1.5rem;
+    }
+
+    .mini-container {
+        background: transparent;
+        padding: 0;
     }
 
     .content {
@@ -399,7 +403,6 @@ a {
     .skillcard,
     .card {
         margin: 20px 0;
-        padding: 0;
     }
 
 
@@ -419,5 +422,10 @@ a {
 
     .homelinks {
         left: 40%;
+    }
+
+    .image img,
+    .about {
+        border-radius: 4px;
     }
 }
