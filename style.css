@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.col-2 {
+    flex-basis: 50%;
+}
+
+.col-3 {
+    flex-basis: 33%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* home */
+.home {
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* home */
+
+/* navbar */
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+}
+
+.logo h1 {
+    font-size: 4em;
+    font-family: 'Caveat', cursive;
+}
+
+.navlinks {
+    text-align: right;
+    margin: auto;
+}
+
+.navlinks a {
+    color: white;
+    margin-left: 4rem;
+    font-size: 1.10em;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.navlinks a:hover {
+    color: yellowgreen;
+}
+
+/* navbar */
+
+/* home links */
+.homelinks {
+    position: absolute;
+    margin: auto;
+    left: 45%;
+    bottom: 10%;
+    text-align: center;
+    border: 2px solid red;
+    background-color: black;
+}
+
+.links img {
+    width: 50px;
+    margin: 0 1rem;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.links img:hover {
+    transform: scale(1.2);
+}
+
+.cv {
+    margin-top: 25px;
+}
+
+.cv a {
+    background-color: crimson;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 50px;
+    font-size: 1.25em;
+    transition: 0.5s;
+}
+
+.cv a:hover {
+    background-color: green;
+}
+
+/* home links */
+
+/* about */
+.container {
+    padding: 2.5rem;
+    background-color: black;
+    color: white;
+}
+
+.mini-container {
+    padding: 2.5rem;
+    background: rgb(37, 36, 36);
+    border-radius: 5px;
+    margin: 100px 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.heading h1 {
+    font-size: 3em;
+}
+
+.hr1 {
+    height: 5px;
+    border: none;
+    background-color: yellowgreen;
+    border-radius: 50px;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.image,
+.about {
+    margin: 0 50px;
+}
+
+.image {
+    text-align: center;
+}
+
+.about {
+    padding: 1.5rem 2rem;
+    border: 4px solid crimson;
+    border-radius: 0px 50px 0px 50px;
+}
+
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 50px 0px 50px;
+    border: 4px solid crimson;
+}
+
+.headstart1 {
+    font-size: 3em;
+    color: crimson;
+    margin-bottom: 10px;
+}
+
+.headstart2 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.aboutpara {
+    font-size: 1.2em;
+    line-height: 1.25em;
+}
+
+.aboutpara span {
+    color: yellowgreen;
+}
+
+.aboutlist {
+    margin: 20px;
+}
+
+/* about */
+
+/* projects */
+.card {
+    margin: 50px;
+    background-color: rgb(80, 79, 79);
+    transition: all ease 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    color: yellowgreen;
+    margin: 10px 0;
+}
+
+.card-content h4 {
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    margin: 10px 0;
+}
+
+.card-content h5 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: yellowgreen;
+    font-size: 1em;
+}
+
+.card-content ul {
+    margin-left: 15px;
+}
+
+.card-content ul li {
+    margin: 5px 0;
+}
+
+.repolink {
+    color: yellowgreen;
+}
+
+.card-content p {
+    line-height: 1.30em;
+    font-size: 0.8em;
+}
+
+/* projects */
+
+/* skills */
+.skillcard {
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(80, 79, 79);
+    border-radius: 5px;
+}
+
+
+.mini-heading {
+    text-align: center;
+    padding: 20px;
+    color: yellowgreen;
+}
+
+.skill-item {
+    padding: 20px;
+    margin: 20px 30px;
+    background: rgb(104, 102, 102);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.skill-item:hover {
+    color: yellowgreen;
+    transform: translateX(10px);
+}
+
+.tick {
+    color: yellowgreen;
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.skill-item img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* skills */
+
+/* contacts */
+.social {
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin: 20px 0;
+}
+
+.inputs label {
+    font-weight: bold;
+    color: yellowgreen;
+    margin-bottom: 5px;
+}
+
+.inputs input {
+    height: 50px;
+    border: none;
+    padding-left: 10px;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+}
+
+.inputs textarea {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.submit {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.submit input {
+    height: 45px;
+    width: 200px;
+    background-color: yellowgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+
+.submit input:hover {
+    background-color: green;
+}
+
+#contact-form:hover {
+    transform: none;
+}
+
+#contact-form {
+    padding: 0 20px;
+}
+
+/* contact */
+
+/* footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: rgb(37, 36, 36);
+    color: white;
+}
+
+.creator {
+    color: yellowgreen;
+}
+
+.heart {
+    color: red;
+}
+
+/* footer */
+
+/* media queries */
+@media only screen and (max-width: 1200px) {
+
+    .container,
+    .mini-container {
+        padding: 1.5rem;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .skillcard,
+    .card {
+        margin: 20px 0;
+        padding: 0;
+    }
+
+
+    .navlinks {
+        display: none;
+    }
+
+    .logo {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .image,
+    .about {
+        margin: 20px 0;
+    }
+
+    .homelinks {
+        left: 40%;
+    }
+}
